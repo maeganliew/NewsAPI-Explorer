@@ -16,3 +16,6 @@ import React, { useEffect, useState } from 'react';
 }
 
 export default App
+
+console.log("Environment Variables:", import.meta.env);
+console.log("API Key:", import.meta.env.VITE_API_KEY);
