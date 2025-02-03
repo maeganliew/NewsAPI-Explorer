@@ -1,9 +1,11 @@
+import { Navbar } from "./components/Navbar"
+import { Newsboard } from "./components/Newsboard"
 
  const App = () => {
   return (
-    <div>Appppppppp
-          <h1>text</h1>
-
+    <div>
+          <Navbar/>
+          <Newsboard/>
     </div>
   )
 }
