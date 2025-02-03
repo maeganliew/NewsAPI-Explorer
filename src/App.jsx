@@ -1,11 +1,16 @@
 import { Navbar } from "./components/Navbar"
 import { Newsboard } from "./components/Newsboard"
+import React, { useEffect, useState } from 'react';
+
 
  const App = () => {
+  
+  const [category, setCategory] = useState ("general");
+
   return (
     <div>
-          <Navbar/>
-          <Newsboard/>
+          <Navbar setCategory = {setCategory}/>
+          <Newsboard category = {category}/>
     </div>
   )
 }
