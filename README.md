@@ -2,10 +2,6 @@
 
 An interactive web application that allows users to view the latest news articles from different categories using the **NewsAPI**. The app dynamically fetches articles based on the selected category and displays them with an easy-to-use interface.
 
-## 🌐 Live Demo
-
-Check out the live version of this project here: **fixing api issues
-
 ## 🚀 Features  
 - 🔍 **Filter News by Category**: Select a category (e.g., Technology, Business, Health) to view the latest articles.  
 - 📄 **Fetch Latest Articles**: View the most up-to-date news from around the world.  
