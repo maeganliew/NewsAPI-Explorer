@@ -52,12 +52,13 @@ Check out the live version of this project here: **fixing api issues
 
 This project requires a **NewsAPI key**. To get started:
 
-1. Sign up at [NewsAPI](https://newsapi.org/).
-2. Create an API key.
-3. Replace the placeholder in your `.env` file with your key:
+1. Sign up at [NewsAPI](https://newsapi.org/) and generate an API key.
+2. Create a .env file in the root of your project.
+3. Add the following line to your .env file, replacing your_news_api_key_here with your actual key:
     ```env
     VITE_API_KEY=your_news_api_key_here
     ```
+4. Restart the development server after adding the key to ensure it is loaded properly.
 
 ## 🚀 How to Use
 
